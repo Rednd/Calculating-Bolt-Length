@@ -1,0 +1,51 @@
+{
+  "name": "bolt-calc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-react-dropdowns": "^27.2.5",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "chart.js": "^4.4.7",
+    "classnames": "^2.5.1",
+    "cra-template-typescript": "1.2.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^19.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^3.0.1",
+    "save": "^2.9.0",
+    "typescript": "^5.7.2",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "sass": "^1.82.0"
+  }
+}
